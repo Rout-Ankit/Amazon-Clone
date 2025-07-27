@@ -1,0 +1,64 @@
+/* #box1{
+    height: 100px;
+    width: 200px;
+    background-color: greenyellow;
+    font-size:10px;
+} */
+
+/* #box2{
+    height: 50px;
+    width: 30%;
+    background-color: aqua;
+    margin-left: 10%;
+    font-size: 2em;  /*2 times of parents font size
+    width: 5rem;
+    /* height: 30vw;
+    width: 20vw;
+} */ 
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: slateblue;
+    border: 2px solid black;
+    display: inline-block;
+} */
+/* #box1{
+    position: static;      /* default position
+} */
+/* #box2{
+    position: relative;/* element is relative to itself 
+    top: 20px;
+    left: 10px;
+    z-index:1 ;
+} */
+/* #box3{
+    position: absolute;  /* closest position ancestor
+    top: 500px;
+    left:20px
+} */
+/* #box4{
+    position: fixed; /* rlative to browser (removed from flow*/
+    /* right: 10px; */
+    /* top: 50; */
+    /* width: 100vw; 
+} */
+
+
+
+/* Background image set*/
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+body{
+    background-image: url("sunset.jpg");
+    background-size: cover;
+    /* background-size: auto; */
+     /* background-size: contain; */
+}
+ 

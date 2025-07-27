@@ -1,0 +1,145 @@
+
+/* #devloper{
+    background-color: blue;
+    color: white;
+}
+
+.heading{
+    color: red;
+}
+button{
+    background-color: green;
+    color:black;
+} */
+/* *{
+    font-family: 'Times New Roman';
+}
+#h1{
+   color: red;
+   font: bolder;
+   font-size:40px;
+   text-align: center;
+   text-decoration: underline;
+   text-transform: capitalize;
+}
+
+#outer{
+      font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+} */
+
+/* 
+div {
+    font-size: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border-radius: 50%;
+    
+} */
+/* body{
+
+}
+div{
+    height: 80px;
+    width: 80px;
+    background-color: aqua;
+    border-style: solid;
+}
+#one{
+    text-align: center;
+    background-color: red;
+    border-radius: 50%;
+    border-width:6px;
+}
+#two{
+    text-align: center;
+    background-color: yellow;
+    border-radius: 50%;
+    border-width: 6px;
+}
+#three{
+    text-align: center;
+    background-color: green;
+    border-radius:50%;
+    border-width: 6px;
+} */
+/* *{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#navbar{
+    height: 60px;
+    background-color:#0f1111;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+} */
+/* 
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+#navbar{
+    height: 60px;
+    background-color:#0f1111;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+}
+
+.contentbox{
+    height: 100px;
+    width: 100px;
+    border:2px solid black;
+    display: inline-block;
+}
+
+#content{
+    height: 800px;
+}
+
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+
+} */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url("sunset.jpg");
+    background-size:cover;
+    color: grey;
+    position: absolute;
+    right: 0px;
+    position: fixed;
+    top: 50px;
+}

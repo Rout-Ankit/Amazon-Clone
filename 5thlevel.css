@@ -1,0 +1,85 @@
+ /* div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 100px; */
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    transition-delay: 1s; */
+    /* transition: all 2s ease-in 1s  ; */
+    /* transform: rotate(90deg); */
+    /* rotate: z 90deg; */
+
+ /* }
+div:hover{ */
+    /* background-color: blue;
+    color: white;
+    font-size: 20px; */
+    /* transform: rotate(180deg); */
+    /* transform: translate(250px);
+    transform: translate(-200px); */
+    /* transform: translate(200px,80px); */
+   
+/* }
+div:active{
+    background-color:red ;
+} */
+
+
+
+                                /* Animation on css */
+
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid black;
+    text-align: center;
+    position: absolute;
+    /* border-radius: 50%; */
+    line-height: 5;
+    top: 200px;
+    left: 200px;
+    /* animation-name: colorAnimate;
+    animation-duration:2s;
+    animation-timing-function: ease-in;
+    animation-delay:0s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate; */
+    animation: colorAnimate 2s ease-in 3s infinite normal;
+ 
+}
+
+/* @keyframes colorAnimate {
+    from {
+        left : 0px;
+        background-color: red;
+    }
+    to{
+        left: 200px;
+        background-color: blue;
+        color: white;
+    }
+} */
+
+
+@keyframes colorAnimate {
+    0% {
+        left: 0px;
+        background-color:gold;
+    }
+    50% {
+        background-color: darkred;
+    }
+    100% {
+        left: 300px;
+        background-color: fuchsia;
+        color: aqua;
+    }
+}
